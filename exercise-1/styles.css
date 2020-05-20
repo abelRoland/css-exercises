@@ -63,3 +63,44 @@ body {
   margin-right: auto;
   max-width: 56em;
 }
+
+@media (min-width: 600px) {
+  
+  .text {
+    margin-top: var(--grid);
+  }
+  .box {
+    margin: var(--grid) var(--grid) var(--grid) 0;
+    min-width: calc(4 * var(--grid));
+  }
+  
+  .grid {
+    grid-template-areas:
+      "red text"
+      "black text";
+  }
+
+  .wrapper {
+    max-width: 60em;
+  }
+}
+
+@media (min-width: 900px) {
+  
+  .text {
+    margin: var(--grid);
+  }
+  .box {
+    margin: var(--grid) 0;
+    min-width: calc(4 * var(--grid));
+  }
+  
+  .grid {
+    grid-template-areas:
+      "black text red";
+  }
+
+  .wrapper {
+    max-width: 100em;
+  }
+}
