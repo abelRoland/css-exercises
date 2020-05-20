@@ -2,8 +2,143 @@
 
 body {
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 * {
   box-sizing: border-box;
+}
+
+main {
+  background: #eee;
+  min-height: 20em;
+  padding: 50px 20px;
+}
+
+.card {
+  width: 325px;
+  height: 225px;
+  display: block;
+  float: left;
+  margin-right: 35px;
+  background: #fff;
+  border-radius: 3%;
+  box-shadow: 1px 1px 10px 1px black;
+  position: relative; 
+}
+
+.cardHead img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 15%;
+  margin: 15px;
+  display: block;
+  float: left;
+}
+
+.cardTitle {
+  display: inline;
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 3px;
+  width: 180px;
+}
+
+.cardTitle_2 {
+  width: 170px;
+  display: inline;
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 3px;
+}
+
+.cardTitle_3 {
+  width: 170px;
+  display: inline;
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 3px;
+}
+
+.special {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 10px;
+  color: #ffdc22;
+  font-weight: bold;
+}
+
+.special::before {
+  background-image: url('./star.svg');
+  background-size: 10px 20px;
+  position: absolute;
+  top: -5px;
+  left: -14px;
+  display: inline-block;
+  margin-right: 5px;
+  width: 10px; 
+  height: 20px;
+  content:"";
+}
+.subtitle {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: bold;
+  display: table;
+  margin-top: 0;
+  color: #98a3bc;
+}
+
+.text {
+  font-size: 10px;
+  width: 180px;
+  margin-left: 80px;
+  margin-top: 25px;
+}
+
+.text_big {
+  font-size: 10px;
+  width: 180px;
+  margin-left: 80px;
+  margin-top: 80px;
+}
+
+.break {
+  font-size: 10px;
+  width: 180px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.nope {
+  padding: 8px 20px;
+  border-radius: 16px;
+  background: #ddd;
+  border: none;
+  font-weight: bold;
+  color: #555;
+}
+
+.ok {
+  padding: 8px 28px;
+  border-radius: 16px;
+  background: #4f4fff;
+  border: none;
+  font-weight: bold;
+  color: #fff;
+  box-shadow: 1px 1px 10px 1px black;
 }
