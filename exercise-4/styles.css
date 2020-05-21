@@ -1,37 +1,41 @@
 @font-face {
-  font-family: "Domaine Display";
+  font-family: "Domaine Display", Georgia, serif;;
   font-weight: 700;
   font-style: italic;
   src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineDisplayTest-ExtraboldItalic.woff)
     format("woff");
+  font-display: fallback;
 }
 
 @font-face {
-  font-family: "Domaine Text";
+  font-family: "Domaine Text", Georgia, serif;;
   font-weight: 300;
   font-style: normal;
   src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-Light.woff)
     format("woff");
+  font-display: fallback;
 }
 
 @font-face {
-  font-family: "Domaine Text";
+  font-family: "Domaine Text", Georgia, serif;;
   font-weight: 300;
   font-style: italic;
   src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-LightItalic.woff)
     format("woff");
+  font-display: fallback;
 }
 
 @font-face {
-  font-family: "Domaine Text";
+  font-family: "Domaine Text", Georgia, serif;;
   font-weight: 500;
   font-style: normal;
   src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-Medium.woff)
     format("woff");
+  font-display: fallback;
 }
 
 @font-face {
-  font-family: "Domaine Text";
+  font-family: "Domaine Text", Georgia, serif;;
   font-weight: 500;
   font-style: italic;
   src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-MediumItalic.woff)
@@ -39,52 +43,58 @@
 }
 
 @font-face {
-  font-family: "Domaine Text";
+  font-family: "Domaine Text", Georgia, serif;;
   font-weight: 700;
   font-style: normal;
   src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-Bold.woff)
     format("woff");
+  font-display: fallback;
 }
 
 @font-face {
-  font-family: "Domaine Text";
+  font-family: "Domaine Text", Georgia, serif;;
   font-weight: 700;
   font-style: italic;
   src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-BoldItalic.woff)
     format("woff");
+  font-display: fallback;
 }
 
 @font-face {
-  font-family: "Domaine Text";
+  font-family: "Domaine Text", Georgia, serif;;
   font-weight: 800;
   font-style: normal;
   src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-Black.woff)
     format("woff");
+  font-display: fallback;
 }
 
 @font-face {
-  font-family: "Domaine Text";
+  font-family: "Domaine Text", Georgia, serif;;
   font-weight: 800;
   font-style: italic;
   src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-BlackItalic.woff)
     format("woff");
+  font-display: fallback;
 }
 
 /* Load body last 😈 */
 @font-face {
-  font-family: "Domaine Text";
+  font-family: "Domaine Text", Georgia, serif;;
   font-weight: 400;
   font-style: normal;
   src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-Regular.woff)
     format("woff");
+  font-display: fallback;
 }
 
 @font-face {
-  font-family: "Domaine Text";
+  font-family: "Domaine Text", Georgia, serif;;
   font-weight: 400;
   font-style: italic;
   src: url(https://dv9y9s4n4ocup.cloudfront.net/DomaineTextTest-RegularItalic.woff)
     format("woff");
+  font-display: fallback;
 }
 
 body {
@@ -102,6 +112,7 @@ figure {
 }
 
 figure img {
+  min-height: 725px;
   max-width: 100%;
   object-fit: cover;
   object-position: center center;
