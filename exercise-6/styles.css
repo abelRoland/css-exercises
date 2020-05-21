@@ -46,6 +46,18 @@ body {
   width: 32px;
 }
 
+.button:hover:nth-child(1) ~ .bulb:nth-child(3n - 2) {
+  background: yellow;
+}
+
+.button:hover:nth-child(2) ~ .bulb:nth-child(3n - 1) {
+  background: yellow;
+}
+
+.button:hover:nth-child(3) ~ .bulb:nth-child(3n){
+  background: yellow;
+}
+
 .button__two {
   left: 48px;
 }
